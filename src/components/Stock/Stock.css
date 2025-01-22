@@ -1,0 +1,6 @@
+.card-body {
+    width: 50%;
+    border: 2px solid black;
+    margin: 0 auto;
+    text-align: center;
+  }
