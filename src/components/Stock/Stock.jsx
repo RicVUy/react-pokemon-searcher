@@ -1,7 +1,7 @@
 import React from 'react'
 import './Stock.css'
 
-function Stock({stock}) {
+function Stock({stock, onStockClick}) {
     const {
         id,
         name,
@@ -11,7 +11,7 @@ function Stock({stock}) {
     } = stock
     return (
         <div>
-        <div className="card">
+        <div className="card" onClick={() => onStockClick(stock)}>
           <div className="card-body">
             <h5 className="card-title">{name}</h5>
             <p className="card-text">{ticker}: {price}</p>

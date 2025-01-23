@@ -10,6 +10,7 @@ function PortfolioContainer({portfolio, onStockClick}) {
     return (
      <div>
         <h2>My portfolio</h2>
+        {portfolioList}
      </div>   
     )
 }
